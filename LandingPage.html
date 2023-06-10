@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+    /* Navbar */
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            height: 10vh;
+            width: 100%;
+            background: linear-gradient(#152c24,grey);
+            box-shadow: inset 0px 0px 18px black;
+            
+            display: flex;
+            justify-content: space-around;
+        }
+        .logoBar{
+            height: 10vh;
+            width: 200px;
+            
+            display: flex;
+            place-items: center;
+        }
+        .logoBar img{
+            height: 60px;
+            width: 120px;
+        }
+        .menuBar{
+            height: 10vh;
+            width: 400px;
+
+            display: flex;
+            justify-content: center;
+            place-items: center;
+        }
+        .menuBar span{
+            padding: 10px;
+            font-size: 21px;
+            font-weight: bold;
+            color: white;
+        }
+
+    /* Page */
+    .landingPageBox{
+            width: 100%;
+            height: 800px;
+            background: linear-gradient(#152c24, #083563);
+
+            display: flex;
+            place-items: center;
+            justify-content: space-evenly;
+        }
+        .sectionBox1{
+            color: white;
+            width: 30%;
+            height: 45vh;
+            
+        }
+        .sectionBox2{
+            width: 30%;
+            height: 45vh;
+        }
+        .sectionBox2 img{
+            border: 13px double black;
+            border-radius: 10%;
+            box-shadow: 0px 0px 18px saddlebrown;
+            max-width: 100%;
+        }
+        .sectionBox1, .sectionBox2{
+            width: 40%;
+            height: 70vh;
+        }
+        .sectionBox1 h1{
+            font-size: 60px;
+        }
+        .sectionBox1 p{
+            font-size: 15px;
+        }
+        .butn{
+            width: 140px;
+            border: 3px solid black;
+            background: rgb(88, 145, 88);
+
+            padding: 15px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icons i{
+            font-size: 40px;
+            margin: 10px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+    <div class="main">
+        <div class="logoBar">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe4fra_eQ4GdXj5F3YusQO8Yfi4Mrxj9nrWdEefjSHHaDZiGaU2STN7ibAPVvfwN-61UE63cLat74&usqp=CAU&ec=48600112" alt="">
+        </div>
+        <div class="menuBar">
+            <span class="menu">Home</span>
+            <span class="menu">About</span>
+            <span class="menu">Product</span>
+            <span class="menu">Service</span>
+            <span class="menu">Contact</span>
+        </div>
+    </div>
+
+<!-- Page -->
+<div class="landingPageBox">
+    <div class="sectionBox1">
+        <h1>Star GYM</h1><br>
+        <p>A gym as defined by the Oxford Dictionary states that it is a “membership organization that provides a range of facilities designed to improve and maintain physical fitness and health.” Within our society, the culture of a gym or health club is comprised of those who wish to maintain their physical health, as well as form a bond for like-minded people to support one another with their health goals within a shared environment. I have chosen to observe and understand the culture that embodies the Westford Regency Health Club, a local Massachusetts gym with higher than average membership pric es and a higher end reputation in comparison to the average franchised gym, such as Planet Fitness. I chose this particular gym for the sole fact that it is labeled as a “health club,” rather than a gym, which brings about the notion that it is somehow superior in regards to its facilities and membership privileges.</p> 
+        <br><br>
+        <p style="color: black; font-size: 50px"><b> You must carry :-</b>
+            <ul>
+                <li><b><i>Gym-appropriate training gear (avoid denim or replica shirts)</i></b></li>
+                <li><b><i>Towel and shampoo (for a post-workout shower)</i></b></li>
+                <li><b><i>Gym shoes (avoid weak canvas shoes)</i></b></li>
+                <li><b><i>Post-workout snack.</i></b></li>
+                <li><b><i>Water bottle</i></b></li>
+                <li><b><i>Sweat towel</i></b></li>
+            </ul>
+        </p>
+        <br>
+        <button class="butn">
+           <a href="#"> Contact Me</a>
+        </button>
+        <br>
+        <div class="icons">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+    </div>
+   
+    <div class="sectionBox2">
+        <img src="https://www.fitness-world.in/wp-content/uploads/2022/01/5-Reasons-Why-Your-Residential-Building-Needs-a-Professional-Gym-Banner-1200x620.jpg"> 
+    </div>
+</div>
+</body>
+</html>
